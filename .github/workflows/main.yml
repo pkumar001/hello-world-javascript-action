@@ -1,15 +1,12 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  kryptowire_analysis_job:
     runs-on: ubuntu-latest
     name: Kryptowire Analysis Action
     steps:
-      - name: Hello world action step
+      - name: App submission action step
         id: hello
         uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: "Prem"
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
