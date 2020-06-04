@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: App submission action step
         id: hello
-        uses: actions/hello-world-javascript-action@v1
+        uses: ./
         with:
           who-to-greet: "Prem"
