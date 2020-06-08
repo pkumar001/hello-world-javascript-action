@@ -6,7 +6,7 @@ jobs:
     name: Kryptowire Analysis Action
     steps:
       - name: Hello world action step
-      id: hello
-      uses: pkumar001/hello-world-javascript-action@v1
-      with:
-        who-to-greet: 'Prem'
+        id: hello
+        uses: pkumar001/hello-world-javascript-action@v1
+        with:
+          who-to-greet: "Prem"
