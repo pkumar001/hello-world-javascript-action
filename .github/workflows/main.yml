@@ -5,10 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Kryptowire Analysis Action
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ./ # Uses an action in the root directory
         id: hello
+        uses: pkumar001/hello-world-javascript-action
         with:
-          who-to-greet: "Mona the Octocat"
+          who-to-greet: "Prem"
